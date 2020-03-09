@@ -20,29 +20,14 @@ export class View_ extends Mn.View {
                 'openLib': 'showBook',
                 'openMain': 'Render',
             },
-            childViewEvents: {
-                'addModel': 'addModel',
-                "search": "search"
-            }
         });
     }
 
-    search(options) {
-        let view = this.getChildView('content_space');
-        let collectionView = view.getChildView('content');
-        collectionView.collection.fetch({
-            url: collectionView.collection.url() + `?search=${options.text}`
-        })
-    }
-
-    addModel(model){
-        let view = this.getChildView('content_space');
-        view.addModel(model)
-    }
 
     onRender() {
         this.showChildView('menu', new MenuView());
         this.showChildView('content_space', new ContentView());
+        this.onShowBook();
     }
 
     onShowBook() {

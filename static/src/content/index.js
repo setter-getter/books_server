@@ -4,7 +4,7 @@ import {BooksView} from "../library/index"
 import {DescriptionView} from "../description"
 
 
-export class ContentView extends Mn.View{
+export class ContentView extends Mn.View {
     constructor() {
         super({
             className: 'content_container_view',
@@ -21,11 +21,6 @@ export class ContentView extends Mn.View{
             book_lib: BooksView,
             book_desc: DescriptionView
         }
-    }
-
-    addModel(model) {
-        let view = this.getChildView('content');
-        view.collection.unshift(model);
     }
 
     closeDescription() {

@@ -18,11 +18,8 @@
     "backbone.marionette": "^4.0.0",
     "block-ui": "^2.70.1",
     "bootstrap": "^3.3.7",
-    "flexbox-set": "^0.3.3",
     "handlebars": "^4.1.2",
     "jquery": "^3.4.0",
-    "noty": "^3.2.0-beta",
-    "stylus": "^0.54.5",
     "webpack": "^4.29.6"
   },
   "devDependencies": {
@@ -39,7 +36,6 @@
     "handlebars-loader": "^1.7.0",
     "popper.js": "^1.14.6",
     "style-loader": "^0.23.1",
-    "stylus-loader": "^3.0.2",
     "url-loader": "^1.1.2",
     "webpack-cli": "^3.3.0"
   }

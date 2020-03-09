@@ -1,19 +1,21 @@
-После скачивания приложения с репозитория, необходимо собрать локальные окружения с помощью Pipenv и Webpack.
-На всякий случай в терминале прописать переменную для местоположения локального окружения:
+# Библиотека книг
 
-export PIPENV_VENV_IN_PROJECT=1
+Прописываем глобальную переменную для создания окружения в проекте:
+> export PIPENV_VENV_IN_PROJECT=1
 
 Coбрать окружения командами:
 
-pipenv install --python 3.8
+> pipenv install --python 3.8
+> npm i
 
-npm i
+В папке с проектом:
 
-Запустить в виртуальной среде:
+> pipenv shell
 
-pipenv shell
+Запуск сервера:
 
-Запустить сервер:
+> python manage.py runserver
 
-python manage.py runserver
+Сборка клиента:
 
+> npm run build
