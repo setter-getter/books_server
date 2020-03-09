@@ -1,0 +1,70 @@
+.book-list {
+  list-style-type: none;
+}
+
+.blockUI-form {
+  list-style-type: none;
+  padding: 1em;
+  z-index: 1011;
+  position: fixed;
+  top: 15%;
+  left: 15%;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  border: 3px solid rgb(170, 170, 170);
+  background-color: rgb(255, 255, 255);
+  cursor: wait;
+}
+
+.form {
+  width: 600px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.form__description {
+  height: 150px;
+}
+
+#author {
+  font-size: medium;
+  font-weight: bold;
+}
+
+#title {
+  font-size: x-large;
+  font-weight: bold;
+  color: grey;
+}
+
+#description {
+  line-height: 25px;
+}
+
+.delete-form {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.delete-form__item {
+  padding: 5px;
+}
+
+.book-list {
+  margin-top: 2em;
+}
+
+.dropdown {
+  list-style-type: none;
+  margin: 5px;
+  padding: 5px;
+}
+
+.add-book {
+  margin-top: 5px;
+}
+
+.search {
+  margin-top: 2px;
+}
