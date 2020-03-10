@@ -12,6 +12,13 @@ Coбрать окружения командами:
 
 > pipenv shell
 
+Выполнить миграции в базу данных:
+
+> python manage.py makemigrations
+
+> python manage.py migrate
+
+
 Запуск сервера:
 
 > python manage.py runserver
