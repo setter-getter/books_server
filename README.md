@@ -5,7 +5,8 @@
 
 Coбрать окружения командами:
 
-> pipenv install --python 3.8
+> pipenv install
+
 > npm i
 
 В папке с проектом:
